@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:tag="data"
+                tools:context="omabralimited.voterapp.HomeActivity"
+                >
+    <FrameLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/container"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Voter Data"
+            android:id="@+id/btnVoterData"
+            android:background="@drawable/white_btn"
+            android:textColor="#004646"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Death Data"
+            android:id="@+id/btnDeathData"
+            android:background="@drawable/white_btn"
+            android:textColor="#004646"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

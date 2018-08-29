@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Voter App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_register_voter">Register Voter</string>
+    <string name="title_activity_register_death">Register Death</string>
+    <string name="title_activity_home">Voter App</string>
+</resources>
